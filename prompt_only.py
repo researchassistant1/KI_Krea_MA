@@ -7,8 +7,7 @@ import requests  # Zum Senden der Daten an Google Sheets
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # 🔹 Google Apps Script API-URL & Sheet-ID für die Datenspeicherung
-google_script_url = "https://script.google.com/macros/s/AKfycbwmixSK9TMI2RyAWTutomNZ5DofoefLKBpicVSx-TxAOhPZ8FlHXJE1oRiwp2p67-oRtA/exec
-"  # ⬅️ Ersetze mit deiner Google Apps Script URL
+google_script_url = "https://script.google.com/macros/s/AKfycbwmixSK9TMI2RyAWTutomNZ5DofoefLKBpicVSx-TxAOhPZ8FlHXJE1oRiwp2p67-oRtA/exec"  # ⬅️ Ersetze mit deiner Google Apps Script URL
 google_sheet_id = "1cm8m01Rqe0FVEBZVkFjQbq_kEdrIuYQK1XplqZnkkWk"  # ⬅️ Ersetze mit deiner Google Sheets ID
 
 st.title("Du kannst nur einen Prompt verwenden, also wähle deine Worte weise.")
